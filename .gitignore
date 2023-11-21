@@ -2,6 +2,12 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
+# Exclude additional files
+HELP.md
+mvnw
+mvnw.cmd
+.factorypath
+
 # IntelliJ IDEA
 .idea/
 
@@ -19,6 +25,3 @@ nb-configuration.xml
 logs/
 build/
 target/
-
-# Exclude Maven project file
-pom.xml
